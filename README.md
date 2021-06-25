@@ -1,5 +1,8 @@
 # NodeJS Express sample application
 
+## Start Terminal
+<a title="Start Terminal" href="didact://?commandId=terminal-for-nodejs-container:new">Start Terminal</a>
+
 ## Get Code 
 <a title="Get Code" href="didact://?commandId=vscode.didact.sendNamedTerminalAString&text=nodejs%20terminal%201$$git%20clone%20https://github.com/gautam-borkar/nodejs-express.git">Get Code</a>
 
