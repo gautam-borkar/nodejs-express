@@ -1,6 +1,7 @@
 {
 	"name": "nodejs-express-didact",
 	"displayName": "nodejs-express-didact",
+	"publisher": "gborkar",
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
