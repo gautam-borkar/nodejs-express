@@ -6,10 +6,7 @@ import * as path from 'path';
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export async function activate(context: vscode.ExtensionContext) {
-	const tutorialPath = path.resolve(context.extensionPath, './README.md');
-	const tutorialUri = vscode.Uri.file(tutorialPath);
-	console.log(tutorialUri);
-
+	const tutorialUri = vscode.Uri.file(path.join(__filename, '..', '..') + "/README.md");
 	await vscode.commands.executeCommand('vscode.didact.startDidact', tutorialUri);
 }
 
