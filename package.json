@@ -39,7 +39,6 @@
 	"bugs": {
 		"url": "https://github.com/gautam-tutorial/nodejs-express/issues"
 	},
-	"homepage": "https://github.com/gautam-tutorial/nodejs-express#readme",
 	"dependencies": {
 		"express": "^4.17.1"
 	},
