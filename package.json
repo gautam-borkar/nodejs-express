@@ -1,6 +1,6 @@
 {
-	"name": "nodejs-express-didact",
-	"displayName": "nodejs-express-didact",
+	"name": "nodejs-express",
+	"displayName": "nodejs-express",
 	"publisher": "gborkar",
 	"description": "",
 	"version": "0.0.1",
@@ -17,7 +17,7 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "nodejs-express-didact.helloWorld",
+				"command": "nodejs-express.helloWorld",
 				"title": "Hello World"
 			}
 		]
@@ -29,6 +29,19 @@
 		"pretest": "npm run compile && npm run lint",
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gautam-tutorial/nodejs-express.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/gautam-tutorial/nodejs-express/issues"
+	},
+	"homepage": "https://github.com/gautam-tutorial/nodejs-express#readme",
+	"dependencies": {
+		"express": "^4.17.1"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.57.0",
